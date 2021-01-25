@@ -4,7 +4,7 @@
 
 Generate and manage RFC4122 version 4 compliant unique identifiers with associated objects. Checks internally to absolutely ensure all identifiers are unique.
 
-[Fork on CodeSandbox](https://codesandbox.io/)
+[Fork on CodeSandbox](https://codesandbox.io/s/kduidmanager-1du5f?file=/src/index.js)
 
 ## Install
 
