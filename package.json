@@ -1,0 +1,27 @@
+{
+  "name": "kduidmanager",
+  "version": "1.1.0",
+  "description": "Generate and manage RFC4122 version 4 compliant unique identifiers with associated objects. Checks internally to absolutely ensure all identifiers are unique.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "rollup": "2.2.0",
+    "rollup-plugin-cleanup": "3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.6",
+    "typescript": "4.0.5",
+    "prettier": "2.1.2"
+  },
+  "scripts": {
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "license": "MIT"
+}
